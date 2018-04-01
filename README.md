@@ -20,13 +20,13 @@ Python-based GUI application for controlling PID regulator (see [maglev-ti-rtos]
 ## Usage
 Run
 ```sh
-python3 main.py
+$ python3 main.py
 ```
 
 ## Packing into standalone app
 Performs via [PyInstaller](https://www.pyinstaller.org/). Pick appropriate `.spec` script and run
 ```sh
-pyinstaller "PID_GUI.spec"
+$ pyinstaller "PID_GUI.spec"
 ```
 Please use sources that lay under `./pyinstaller` folder. They differ only in the way to set paths to icons (see [SO](https://stackoverflow.com/questions/7674790/bundling-data-files-with-pyinstaller-onefile) for more details).
 
@@ -42,4 +42,5 @@ Some notes on app' architecture:
   - Redrawing of plots is performed by setting `None` as a parent of `Graph` and repeating of drawing.
 
 ## Copyright
-All rights to icons belong to icons' author from https://www.flaticon.com/. All third-party components belong to their authors. (C) Andrey Chufyrev, 2018.
+All rights to icons belong to icons' author from https://www.flaticon.com/. All third-party components belong to their authors.
+(C) Andrey Chufyrev, 2018.
