@@ -1,5 +1,6 @@
 # maglev-client
 Python-based GUI application for controlling PID regulator (see [maglev-ti-rtos](https://github.com/ussserrr/maglev-ti-rtos)).
+![UNIX screenshot](/screenshots/PID_GUI_linux_gamma.png)
 
 ## Features
   - Get and set PID parameters:
