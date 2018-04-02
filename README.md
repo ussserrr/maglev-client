@@ -11,6 +11,7 @@ Python-based GUI application for controlling PID regulator (see [maglev-ti-rtos]
     - Resetting accumulated I error
   - Monitor controlled parameter and PID algorithm output via plots (and save them as pictures)
   - Save PID parameters to the MCU' EEPROM
+  - Demo mode: activates when no network connection established
 
 ## Dependencies
   - Python 3 (tested Python 3.5+)
@@ -23,12 +24,14 @@ Run
 ```sh
 $ python3 main.py
 ```
+After loading you should see IP/port pair request and then main GUI appears.
 
 ## Packing into standalone app
 Performs via [PyInstaller](https://www.pyinstaller.org/). Pick appropriate `.spec` script and run
 ```sh
 $ pyinstaller "PID_GUI.spec"
 ```
+As in a non-standalone case, you should run the app from terminal to be able to set IP/port and start the GUI.
 Please use sources that lay under `./pyinstaller` folder. They differ only in the way to set paths to icons (see [SO](https://stackoverflow.com/questions/7674790/bundling-data-files-with-pyinstaller-onefile) for more details).
 
 ## Notes
