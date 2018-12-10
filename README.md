@@ -1,3 +1,7 @@
+IMPORTANT NOTE
+
+This app os now archived and should be considered as obsolete. (a lot) Improved successor is [pid-controller-gui](https://github.com/ussserrr/pid-controller-gui) project, make sure to look at it first.
+
 # maglev-client
 Python-based GUI application for controlling PID regulator (see [maglev-ti-rtos](https://github.com/ussserrr/maglev-ti-rtos)).
 ![UNIX screenshot](/screenshots/PID_GUI_linux_gamma.png)
